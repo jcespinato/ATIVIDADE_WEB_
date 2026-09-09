@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Requisitos de segurança em projetos de sites e aplicações web.">
+  <title>WebLab Acadêmico | Segurança</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header"><div class="container navbar"><a class="brand" href="index.html"><span class="brand-mark">W</span><span>WebLab Acadêmico</span></a><nav class="nav-links" aria-label="Navegação principal"><a href="index.html">Início</a><a href="desenvolvimento.html">Desenvolvimento</a><a class="active" href="seguranca.html">Segurança</a><a href="pmbok.html">PMBOK</a><button class="theme-btn" type="button" data-theme-toggle aria-pressed="false">☾ Tema escuro</button></nav></div></header>
+<main>
+  <section class="hero"><div class="container"><span class="eyebrow">Questão 2</span><h1>Requisitos de segurança em aplicações web</h1><p class="lead">Segurança deve fazer parte do projeto desde o início. O objetivo é proteger dados, usuários, sistemas e a continuidade do serviço.</p></div></section>
+  <section class="section"><div class="container grid-2">
+    <article class="card"><div class="number">01</div><h3>Autenticação segura</h3><p>Confirma a identidade do usuário. Senhas devem ser protegidas com hash forte e, quando possível, pode-se adotar autenticação em múltiplos fatores.</p></article>
+    <article class="card"><div class="number">02</div><h3>Autorização e controle de acesso</h3><p>Garante que cada usuário acesse somente os recursos permitidos ao seu perfil, aplicando o princípio do menor privilégio.</p></article>
+    <article class="card"><div class="number">03</div><h3>Criptografia e HTTPS</h3><p>O uso de HTTPS protege os dados em trânsito. Informações sensíveis também podem exigir proteção criptográfica no armazenamento.</p></article>
+    <article class="card"><div class="number">04</div><h3>Validação de entradas</h3><p>Dados vindos de formulários, URLs e APIs devem ser validados e tratados para reduzir riscos como injeção de código, XSS e outras entradas maliciosas.</p></article>
+    <article class="card"><div class="number">05</div><h3>Sessões e cookies</h3><p>Sessões precisam expirar adequadamente e cookies sensíveis devem utilizar configurações seguras, como Secure, HttpOnly e SameSite quando aplicáveis.</p></article>
+    <article class="card"><div class="number">06</div><h3>Atualizações e dependências</h3><p>Sistemas, bibliotecas e servidores precisam de atualização constante para corrigir vulnerabilidades conhecidas e reduzir a superfície de ataque.</p></article>
+    <article class="card"><div class="number">07</div><h3>Backups e recuperação</h3><p>Backups periódicos e testados ajudam a restaurar o serviço em caso de falhas, exclusões acidentais, ataques ou corrupção de dados.</p></article>
+    <article class="card"><div class="number">08</div><h3>Logs, monitoramento e privacidade</h3><p>Registrar eventos relevantes facilita a detecção de incidentes. A coleta de dados deve ser limitada ao necessário e respeitar regras de privacidade, como a LGPD.</p></article>
+  </div></section>
+</main>
+<footer class="site-footer"><div class="container footer-row"><span>© 2026 João Carlos de Souza Espinato</span><span>Segurança desde o planejamento</span></div></footer>
+<script src="script.js"></script>
+</body>
+</html>
